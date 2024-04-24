@@ -1,0 +1,381 @@
+body{
+    background-color:#FAFAFA;
+}
+
+.header{
+    background: #fff;
+}
+
+.nav-content nav.navbar{
+    background: #fff;
+    border-top:1px;
+    box-shadow: 0px 0px 8px 2px #e2e2e2;
+    margin-bottom:25px;
+}
+.nav-content .container, .nav-content .container-md {
+    border-top: solid 1px #f4f4f4;
+    padding-top: 5px;
+    margin-bottom: -2px;
+}
+.nav-content nav.navbar .navbar-nav > li > a {
+    font-size: 1rem;    
+    padding-bottom: 10px;
+    padding-right: 15px;
+     color: #7d7777!important;
+
+    }
+.nav-content nav.navbar .navbar-nav > .active > a, nav.navbar .navbar-nav > .active > a:hover, nav.navbar .navbar-nav > .active > a:focus {
+    color: #FF1654 !important;
+    border-bottom: solid 2px #FF1654;
+    margin-bottom: -2px;
+}
+.nav-content nav.navbar .navbar-nav > li > a:hover {
+    color: #FF1654 !important;
+}
+
+.card-body, .panel .panel-body {
+    padding: 20px;
+}
+.card-blesta{
+    border:none !important;
+    background-color:#fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-color: #edf2f9;
+    border-radius: 0 !important;
+}
+.card-blesta .card-header{
+    background: #fff;
+    color: #FF1654;
+    font-size: 1.5rem;
+    border: none;
+    border-bottom: solid 1px #f4f4f4;
+    margin: 0px;
+    width: 100%;
+}
+.card-blesta .card-footer{
+    border-radius: 0;
+}
+
+.cards .card{
+    border:none;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.list-group-item {
+    background-color: #fff;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.alert{
+    border:none !important;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.card-blesta .alert{
+    box-shadow: none;
+}
+.svg-user-icon svg {
+    height: 10rem !important;
+    width: 10rem !important;
+}
+
+.table{
+    border:none;
+}
+.table>thead>tr>th{
+    background:#fff;
+    border:none;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+
+.table>thead>tr>th a{
+    text-decoration:none;
+}
+
+.table-curved tbody>tr>td, .table-curved tbody>tr>td:first-child{
+    border: none;
+    border-bottom: solid 1px #e6e6e64d;
+    padding:10px 15px;
+    border-bottom: solid 1px #e6e6e64d;
+}
+
+.table-striped-alt>tbody>tr:nth-child(4n+3)>td, .table-striped-alt>tbody>tr:nth-child(4n+3)>th{
+    background:#fff;
+}
+
+.card-blesta .card{
+    border:none;
+    background-color: transparent;
+}
+
+#my-info .card-footer .btn-sm{
+    padding: 0;
+    border: none;
+    background: transparent !important;
+    display: inline;
+}
+
+.form-control{
+    border:solid 1px #f3f0f0;
+    background: #f9f7f7;
+    outline: none;
+}
+.form-control:focus{
+    outline: none;
+    box-shadow: none;
+    background-color: #fff;
+    border: solid 1px #e3f0ff;
+}
+
+.pkg-description{
+    margin-top:5px;
+}
+.pkg-description p{
+    line-height: 1.9;
+}
+
+/* The container */
+.chk-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.chk-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.chk-container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.chk-container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.chk-container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.chk-container .checkmark:after {
+    left: 7px;
+    top: 4px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.btn.btn-light{
+    color: #FF1654 !important;
+    border-color: #fbe8ed !important;
+}
+
+.title {
+    background: transparent;
+}
+.title h3 {
+    color:#FF1654;
+}
+
+tr.expand td:last-of-type::after {
+    background: #fff;
+    right: 20px;
+    padding-left:7px;
+}
+
+.table>tbody>tr.expand_details>td, .table>tbody>tr.expand_details>td:hover {
+    border-top:none;
+}
+
+/* changes from here */
+
+/* Search Bar Start */
+.search-bar>input{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 30px;
+}
+
+.search-bar>div>button{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 30px;
+}
+/* Search Bar End */
+
+.well:hover{
+    /* background-image: linear-gradient(103deg,#8a1d7c 0%,#f92735 100%)!important; */
+    /* background: -webkit-linear-gradient(#8a1d7c,#f92735);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: width 2s;
+}
+
+.svg-hero{
+    width:140px; 
+    height: 140px;
+}
+
+.svg{
+    width: 2rem;
+    height: 2rem;
+}
+
+.list-show{
+    margin: 5px;
+    padding: 4px;
+}
+
+@media only screen and (min-width: 375px) {
+    .list-show>div>div>h5{
+        margin-left: 5px;
+        font-size: 14px;
+    }
+}
+
+.head{
+    color:#FF1654;
+}
+
+.search-group{
+    border: none;
+}
+
+.main-category-heading{
+    /* text-transform: uppercase; */
+    font-weight: bold;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.small-text{
+    font-style: italic;
+    font-weight: 100;
+}
+
+.sub-heading{
+    margin-left: 8px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.sub-heading{
+    margin-left: 4px;;
+}
+
+.link-knowledge:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    color:crimson;
+}
+
+.categories>.row>div>.rounded{
+    padding: 5px;
+    margin-left: 4px;
+}
+
+.categories>.row>div>.rounded>a{
+    text-decoration: none;
+}
+
+.categories>.row>div>.rounded>a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    color: #FF1654;
+} 
+
+.categories>.row>div>.rounded>i{
+    padding-right: 8px;
+    margin-right: 10px;
+}
+
+/* Hero Section */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Raleway&display=swap');
+
+.hero {
+    width: 100%;
+    height: auto;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    background: rgb(148,13,13);
+    background: linear-gradient(103deg,#8a1d7c 0%,#f92735 100%)!important;
+}
+
+.hero h1 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+.button-inner-hero{
+    width: 140px;
+    font-size: 1em;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+    padding: 10px;
+}
+
+.button-hero{
+    margin-right: 380px;
+    margin-top: 40px;
+}
+
+/* .logo-right{
+    background-image: url("shieldicon.png");
+    background-color: #cccccc;
+    background-size: contain;
+} */
+
+@media only screen and (min-width: 375px) {
+    .svg-hero{
+        width:100px; 
+        height: 100px;
+    }
+}
